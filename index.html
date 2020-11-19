@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="app">
+        <form class="playersChoise">
+            <div class="player">
+                <h3>Player 1</h3>
+                <label><input type="radio" name="player1Choise" value="1"><div class="img">🗿</div></label>
+                <label><input type="radio" name="player1Choise" value="2"><div class="img">📜</div></label>
+                <label><input type="radio" name="player1Choise" value="3"><div class="img">✂️</div></label>
+            </div>
+            <div class="player">
+                <h3>Player 2</h3>
+                <label><input type="radio" name="player2Choise" value="1"><div class="img">🗿</div></label>
+                <label><input type="radio" name="player2Choise" value="2"><div class="img">📜</div></label>
+                <label><input type="radio" name="player2Choise" value="3"><div class="img">✂️</div></label>
+            </div>
+        </form>
+        <hr>
+        <button onclick="onPlayButtonClick()">Play</button>
+        <div class="result">
+            <h3>Result</h3>
+            <div class="resultAnswer"></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
